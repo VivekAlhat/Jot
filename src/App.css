@@ -1,0 +1,93 @@
+.infobar {
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
+
+.ui.grid {
+  margin: 0 !important;
+}
+
+.LoginContainer {
+  height: 100vh;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginInfo > p {
+  font-size: 1.2rem;
+}
+
+.LoginInfo > h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.LoginInfo > h4 {
+  font-size: 1.5rem;
+}
+
+.app-loading {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.notes-error {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .avatar {
+  padding: 2rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signout-btn {
+  text-align: center;
+}
+
+.editor {
+  padding: 1rem 0;
+}
+
+.note-editor {
+  padding-top: 10px;
+}
+
+.quill {
+  height: 60vh;
+}
+
+.noteTitle {
+  padding-bottom: 10px;
+}
+
+.submit-btn {
+  margin-top: 4rem !important;
+}
+
+.notes {
+  padding: 1.5rem 0;
+}
+
+.note-content {
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .submit-btn {
+    margin-top: 6rem !important;
+  }
+
+  .content {
+    padding: 0;
+  }
+}
