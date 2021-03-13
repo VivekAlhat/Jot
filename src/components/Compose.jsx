@@ -14,7 +14,7 @@ const Compose = ({ user }) => {
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
   const errors = { message: "Note created" };
-  const notify = () => toast.dark(errors.message);
+  const notify = () => toast(errors.message);
 
   const handleSubmit = (e) => {
     e.preventDefault();
