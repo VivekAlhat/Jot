@@ -11,7 +11,7 @@ const UserBar = () => {
   };
 
   return (
-    <div className="userbar">
+    <div className="userbar" style={{ backgroundColor: "#f4f9f9" }}>
       <Menu pointing secondary size="large">
         <Menu.Item
           name="home"

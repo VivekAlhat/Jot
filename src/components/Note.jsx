@@ -57,8 +57,10 @@ const Note = ({ user }) => {
             </div>
           ) : (
             <div className="note-details">
-              <h1>{userNote.noteTitle}</h1>
-              <p>Created on {userNote.createdAt}</p>
+              <h1 style={{ color: "#222831" }}>{userNote.noteTitle}</h1>
+              <p style={{ color: "#314e52" }}>
+                Created on {userNote.createdAt}
+              </p>
               <div className="note-content">
                 {renderHTML(userNote.noteContent)}
               </div>

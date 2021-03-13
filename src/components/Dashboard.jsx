@@ -39,12 +39,12 @@ const Dashboard = ({ user }) => {
                 return (
                   <List.Item key={noteId}>
                     <List.Content className="note-content">
-                      <h3>
+                      <h3 style={{ fontSize: "1.5rem" }}>
                         <Link style={{ color: "#000" }} to={`/notes/${noteId}`}>
                           {noteTitle}
                         </Link>
                       </h3>
-                      <p style={{ fontSize: "13px" }}>
+                      <p style={{ fontSize: "13px", color: "#314e52" }}>
                         Created on
                         <span style={{ paddingLeft: "5px" }}>{createdAt}</span>
                       </p>
