@@ -40,7 +40,7 @@ const Dashboard = ({ user }) => {
                   <List.Item key={noteId}>
                     <List.Content className="note-content">
                       <h3>
-                        <Link style={{ color: "#000" }} to={`/${noteId}`}>
+                        <Link style={{ color: "#000" }} to={`/notes/${noteId}`}>
                           {noteTitle}
                         </Link>
                       </h3>

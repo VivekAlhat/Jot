@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import Compose from "./components/Compose";
 import Profile from "./components/Profile";
+import Note from "./components/Note";
 import "./App.css";
 
 const App = () => {
@@ -26,6 +27,9 @@ const App = () => {
         <Switch>
           <Route path="/" exact>
             {!user ? <Login /> : <Dashboard user={user} />}
+          </Route>
+          <Route path="/notes/:id">
+            {!user ? <Login /> : <Note user={user} />}
           </Route>
           <Route path="/compose" exact>
             {!user ? <Login /> : <Compose user={user} />}
